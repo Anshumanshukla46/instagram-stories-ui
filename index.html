@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta stories UI</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <!-- flex container, background color, background-gradient, border-radius, hover, animation, rotation
+    -->
+
+    <ul class="flex space-x-6 mt-2 ml-2">
+
+        <!-- you -->
+        <li class="flex flex-col items-center space-y-1">
+
+            <div class="relative bg-gradient-to-tr from-yellow-400 to-fuchsia-600  p-1 rounded-full">
+
+                <a href="#" class="block bg-white p-1 rounded-full transform transition hover:-rotate-6">
+                    <img class="h-54 w-54 rounded-full" src="https://placekitten.com/200/200" alt="kitty">
+                </a>
+
+                <!-- if class is much bigger then we can do this as well -->
+                <!-- <button class="create-story">+</button> -->
+
+                <button
+                    class="absolute bottom-0 right-1 bg-blue-500 h-8 w-8 rounded-full text-white text-2xl font-semibold border-4 border-white flex justify-center items-center font-mono hover: bg-blue-700">+</button>
+
+            </div>
+
+
+            <a href="#">You</a>
+        </li>
+
+        <li class="flex flex-col items-center space-y-1">
+
+            <div class="bg-gradient-to-tr from-yellow-400 to-fuchsia-600  p-1 rounded-full">
+
+                <a href="#" class="block bg-white p-1 rounded-full transform transition hover:-rotate-6">
+                    <img class="h-54 w-54 rounded-full" src="https://placekitten.com/201/214" alt="kitty">
+                </a>
+
+            </div>
+
+
+            <a href="#">Ketty_one</a>
+        </li>
+
+        <li class="flex flex-col items-center space-y-1">
+
+            <div class="bg-gradient-to-tr from-yellow-400 to-fuchsia-600  p-1 rounded-full">
+
+                <a href="#" class="block bg-white p-1 rounded-full transform transition hover:-rotate-6">
+                    <img class="h-54 w-54 rounded-full" src="https://placekitten.com/207/204" alt="kitty">
+                </a>
+
+            </div>
+
+
+            <a href="#">meow341</a>
+        </li>
+
+
+        <li class="flex flex-col items-center space-y-1">
+
+            <div class="bg-gradient-to-tr from-yellow-400 to-fuchsia-600  p-1 rounded-full">
+
+                <a href="#" class="block bg-white p-1 rounded-full transform transition hover:-rotate-6">
+                    <img class="h-54 w-54 rounded-full" src="https://placekitten.com/201/201" alt="kitty">
+                </a>
+
+            </div>
+
+            <a href="#">ciyan12</a>
+        </li>
+
+        <li class="flex flex-col items-center space-y-1">
+            <div class="bg-gradient-to-tr from-yellow-400 to-fuchsia-600 p-1 rounded-full">
+                <a href="#" class="block bg-white p-1 rounded-full transform transition hover:-rotate-6">
+                    <img class="h-54 w-54 rounded-full" src="https://placekitten.com/201/213" alt="one-more">
+                </a>
+            </div>
+
+            <a href="#">one_more</a>
+        </li>
+
+    </ul>
+
+
+</body>
+
+</html>
